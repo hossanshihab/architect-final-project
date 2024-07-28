@@ -1,0 +1,256 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+.work-sans-font{
+  font-family: "Work Sans", sans-serif;
+}
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+p{
+  margin-top: 20px;
+  opacity: 70%;
+}
+/* header section  */
+.navbar-bg{
+  /* border: 1px solid red; */
+  height: 1150px;
+  background-color:rgba(250, 235, 215, 0.841) ;
+}
+.navbar-menu{
+  /* border: 1px solid blue; */
+  width: 90%;
+  height: 100px;
+  margin: 0 auto;
+  display:flex;
+  justify-content: space-between;
+  align-items: center; 
+}
+.navbar-menu h1{
+  font-size: 2rem;
+  font-weight: 900;
+}
+.nav-options{
+  display:flex;
+  justify-content: space-between;
+  gap: 100px;
+}
+.nav-options p{
+  font-weight: bold;
+  cursor: pointer;
+  opacity: 100%;
+  margin-top: 10px;
+}
+.banner-section{
+  /* border: 2px solid darkmagenta; */
+  width: 90%;
+  margin: 50px auto;
+  height: 1000px;
+}
+.banner-text-section{
+  text-align: center;
+}
+.banner-text-section h1{
+  font-size: 3rem;
+  font-weight: 900;
+}
+.btn-primary{
+  margin-top: 20px;
+  width: 157px;
+  height: 50px;
+  border-radius: 10px;
+  background-color: rgba(255, 166, 0, 0.747);
+  border: none;
+  color: white;
+  font-weight: 800;
+}
+.banner-img img{
+  width: 100%;
+  height: 100%;
+  margin-top: 40px;
+}
+
+/* header section end  */
+
+/* feature section  */
+.feature-section{
+  /* border: 2px solid red; */
+  width: 90%;
+  height: 700px;
+  margin: 4rem auto;
+  display: flex;
+  gap: 70px;
+}
+.featue-img{
+  /* border: 2px solid blue; */
+  width: 50%;
+  height: 600px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+.featue-img img{
+  height: 100%;
+  width: 100%;
+}
+.feature-text{
+  /* border: 2px solid blue; */
+  width: 40%;
+  height: 700px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.gray{
+  color: gray;
+  font-size: 2rem;
+}
+.black{
+  font-weight: 900;
+  font-size: 2rem;
+}
+.orange{
+  color: rgba(255, 166, 0, 0.747);
+  font-weight: 900;
+  font-size: 2rem;
+}
+.hide{
+  display: none;
+}
+/* feature end  */
+
+.award-section{
+  /* border: 1px solid red; */
+  width: 90%;
+  height: 600px;
+  margin: 5rem auto;
+}
+.award-text h1{
+  font-size: 2rem;
+  font-weight: 900;
+}
+.award-box{
+  /* border: 1px solid blue; */
+  height: 280px;
+  margin-top: 5rem;
+  display: flex;
+  gap: 36px;
+}
+.box{
+  border: 1px solid tomato;
+  width: 23%;
+  height: 280px;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.box h1{
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+
+.our-sponsor{
+  /* border: 2px solid red; */
+  width: 90%;
+  margin: 1rem auto;
+  height: 500px;
+}
+
+.sponsor-text{
+  /* border: 2px solid green; */
+  text-align: center;
+}
+.sponsor-text h1{
+  font-size: 2rem;
+  font-weight: bold;
+}
+.logos-parent{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+.bgc-footer{
+  background-color: rgba(255, 228, 196, 0.397);
+  /* border: 2px solid red; */
+  width: 80%;
+  height: 80px;
+  margin: 5rem auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center; 
+}
+.bgc-footer p{
+  margin: 0;
+}
+
+/* feature  */
+.feature{
+  /* border: 2px solid red; */
+  width: 90%;
+  height: 900px;
+  margin: 0 auto;
+  display: flex;
+  gap: 200px;
+
+}
+.text-light-gray{
+  color: gray;
+  opacity: 100%;
+  line-height: 20px;
+}
+
+
+.section-title{
+  font-size: 3rem;
+  font-weight: 900;
+}
+#feature-section-title{
+  border-left: 6px solid rgb(252, 168, 13);
+  padding-left: 20px;
+}
+.feature-card{
+  /* border: 1px solid aqua; */
+  margin-top: 25px;
+  padding: 20px;
+  box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.071);
+  border-radius: 7px;
+}
+.feature-title{
+  font-size: 1.25rem;
+  font-weight: 900;
+}
+.feature-text-section{
+  /* border: 1px solid black; */
+  height: 900px;
+  width: 40%;
+}
+.feature-img{
+  /* border: 1px solid blue; */
+  height: 900px;
+  width: 50%;
+  position: relative;
+}
+.feature-img img{
+  width: 100%;
+  height: 100%;
+}
+.btn-primary-1{
+  width: 300px;
+  height: 170px;
+  border-radius: 10px;
+  background-color: red;
+  border: none;
+  color: white;
+  font-weight: 800;
+  position: absolute;
+  top: 790px;
+  right: 500px;
+}
+.font-size{
+  font-size: 3rem;
+}
